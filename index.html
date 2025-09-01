@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>واعض - المساعد الإسلامي</title>
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="islamic-pattern-overlay"></div>
+    
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="images/suhaib-logo.jpg" alt="حملة صهيب للحج والعمرة" class="header-logo">
+                </div>
+                <h2 class="header-title">حملة صهيب الرومي للحج والعمرة</h2>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container main-container">
+        <div class="main-content">
+            <!-- Home Screen -->
+            <div id="home-screen" class="text-center">
+                <div class="profile-container">
+                    <div class="profile-image-container">
+                        <img src="images/profile.jpg" alt="واعض" class="profile-image">
+                    </div>
+                    <h1 class="mt-4 app-title">واعض</h1>
+                    <p class="app-description">مساعدك الإسلامي للإجابة على أسئلتك</p>
+                    <button id="start-chat-btn" class="btn custom-btn mt-3">
+                        <i class="fas fa-comments me-2"></i> بدء المحادثة
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Chat Screen -->
+            <div id="chat-screen" class="d-none">
+                <div class="chat-header">
+                    <button id="back-btn" class="btn back-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div class="chat-profile">
+                        <img src="images/profile.jpg" alt="واعض" class="chat-profile-image">
+                        <span>واعض</span>
+                    </div>
+                </div>
+                <div class="chat-container">
+                    <iframe
+                        src="https://www.chatbase.co/chatbot-iframe/BWxC4tM2xJLBmwvF8H8ne"
+                        width="100%"
+                        height="100%"
+                        frameborder="0"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="powered-by">Powered by 
+                    <span class="bcaitech">bcaitech</span>
+                    <img src="images/bcaitech-logo.png" alt="bcaitech" class="footer-logo">
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    
+    <!-- Welcome Modal -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content welcome-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="welcomeModalLabel">أهلاً وسهلاً</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body welcome-message">
+                    <div class="stars-container">
+                        <div class="star star1"></div>
+                        <div class="star star2"></div>
+                        <div class="star star3"></div>
+                    </div>
+                    
+                    <p class="welcome-header">✨🕋<span class="highlight">أهلاً وسهلاً بكم في الشات بوت الرسمي للَجنَةِ الدَّعوة والإرشاد بحملة صهيب الرومي - مملكة البحرين</span> 🕋✨</p>
+                    
+                    <p>نحن هنا لمساعدتك في <span class="highlight">المسائل الشرعية في الحج</span>، وتقديم الإرشادات الشرعية، والأدعية المأثورة والأذكار، وكل ما يتعلق بمناسك الحج والعمرة.</p>
+                    
+                    <div class="features">
+                        <p>✅ <span class="highlight">استفسر عن أي مسألة فقهية</span> تتعلق بالنسك.</p>
+                        <p>✅ <span class="highlight">اطلب الأدعية والأذكار</span> الخاصة بكل منسك.</p>
+                        <p>✅ <span class="highlight">احصل على توجيهات شرعية</span> من مصادر موثوقة.</p>
+                    </div>
+                    
+                    <p class="special-message">🌹نسعى ليكون هذا البوت عوناً لك في رحلتك الإيمانية🌹</p>
+                    
+                    <div class="resources">
+                        <p>🔸للإطلاع على <span class="highlight">فيديو شرح أحكام العمرة</span> بالتفصيل للشيخ يوسف زينل وفقه الله
+                         <a href="https://www.instagram.com/reel/C7_VIikMgMP/?igsh=YW1pYWxjZmE4a2dj" target="_blank" class="resource-link">اضغط هنا</a></p>
+                        
+                        <p>🔸للاطلاع على <span class="highlight">مناسك العمرة "بالصُّور":</span>
+                         <a href="https://drive.google.com/file/d/1Lbx3dUuwx68JDIP1vRMoy4sTA8NhRCXZ/view?usp=sharing" target="_blank" class="resource-link">اضغط هنا</a></p>
+                        
+                        <p>🔹للاطلاع على <span class="highlight">مناسك الحج "بالصُّور":</span>
+                         <a href="https://drive.google.com/file/d/1b_8g1tp6tc3WXDGvq14LSkL34ky30Fig/view?usp=sharing" target="_blank" class="resource-link">اضغط هنا</a></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn custom-btn" data-bs-dismiss="modal">بدء المحادثة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
